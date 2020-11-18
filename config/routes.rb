@@ -24,7 +24,7 @@ Rails.application.routes.draw do
 
   end
 
-  #resources :reviews, only: :destroy
+  resources :reviews, only: [:destroy]
 
 
   # get 'top', to: 'restaurants#top'
